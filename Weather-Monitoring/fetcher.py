@@ -1,4 +1,3 @@
-
 from .api import fetch_weather
 from .database import store_weather
 from .config import CITIES
