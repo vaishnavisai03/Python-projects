@@ -1,4 +1,3 @@
-
 from datetime import datetime
 from .database import connect_db
 from .config import CITIES
