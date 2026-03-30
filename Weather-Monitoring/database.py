@@ -1,11 +1,8 @@
 import sqlite3
-
 DB_NAME = 'weather_data.db'
-
 def connect_db():
     conn = sqlite3.connect(DB_NAME)
     return conn
-
 def create_tables():
     conn = connect_db()
     c = conn.cursor()
@@ -17,7 +14,6 @@ def create_tables():
                     weather_main TEXT)''')
     conn.commit()
     conn.close()
-
 def store_weather(data):
     conn = connect_db()
     c = conn.cursor()
