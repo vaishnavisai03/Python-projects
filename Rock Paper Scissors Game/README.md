@@ -1,4 +1,4 @@
-Rock-Paper-Scissors
+# Rock-Paper-Scissors
 A game well known by everyone and almost each one of them played this game at least once in their lifetime...
 
 This project is a command-line Rock Paper Scissors game built using Python. The program allows a user to play the classic game against the computer. The user selects Rock, Paper, or Scissors, and the computer randomly generates its choice. The program then compares both selections and determines whether the player wins, loses, or draws.
